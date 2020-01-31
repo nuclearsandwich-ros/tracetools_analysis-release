@@ -1,0 +1,12 @@
+Source: ros-turbulent-tracetools-analysis
+Section: misc
+Priority: extra
+Maintainer: Christophe Bedard <bedard.christophe@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-turbulent-ament-copyright, ros-turbulent-ament-flake8, ros-turbulent-ament-pep257, ros-turbulent-ament-xmllint, ros-turbulent-tracetools-read, ros-turbulent-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-tracetools-analysis
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-turbulent-tracetools-read, ros-turbulent-ros-workspace
+Description: Tools for analysing trace data.
